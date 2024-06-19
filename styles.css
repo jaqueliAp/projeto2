@@ -18,6 +18,8 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -43,4 +45,36 @@ body{
 }
 .container__imagem{
     margin: 1em 0 2em 0;
+}
+.secundario__imagem{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--branco-principal);
+    margin: 0.1em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao{
+    padding: 2em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--branco-principal);
+    margin: 0.1em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
 }
